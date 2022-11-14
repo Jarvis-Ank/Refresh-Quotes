@@ -31,8 +31,8 @@ const Quote = () => {
                 <p className={styles.author} id="source">-- {randomQuote.author}</p>
             </footer>{console.log(msg)}
             <div className="row align-items-center">
-                <a className="mx-3 col-1 text-center" href={`http://twitter.com/share?text=${msg}&url=${rfqURL}&hashtags=RefreshQuotes`}> <i className={`fa fa-share fa-beat`}></i> </a>
-                <a className="col" onClick={getQuote}> <i className={`fa fa-refresh fa-spin `}></i> </a>
+                <a className="mx-3 col-1 text-center" href={`http://twitter.com/share?text=${msg}&url=${rfqURL}&hashtags=RefreshQuotes`}><i className={`fa fa-share `}></i> </a>
+                <a className="col" onClick={getQuote}> <i className={`fa fa-refresh`}></i> </a>
             </div>
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
