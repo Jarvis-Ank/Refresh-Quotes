@@ -16,7 +16,7 @@ export default function Home() {
         <div className="container">
           <div className="row">
             <div className="col-lg-7 ">
-              <h1 className="px-2 text-white">Refresh <br /> &ldquo; Quotes&ldquo;</h1>
+              <h1 className="px-2 text-white">Refresh <br /> &ldquo;Quotes&ldquo;</h1>
               <div className={`${styles["ico"]} list-unstyled d-flex`}>
                 <a class=" px-3 text-white" href="https://twitter.com/_x_in_"><i class="fa-brands fa-twitter fa-xl "></i></a>
             <a class="mb-4 px-3 text-white" href="https://github.com/Jarvis-Ank"><i class="fa-brands fa-github fa-xl"></i></a>
